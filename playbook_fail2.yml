@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Attempt to execute a non-existent command with different word
+      command: non-existent_command
